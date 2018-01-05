@@ -6,5 +6,10 @@ class AdminController  extends BaseController {
         $this->layout->sidebar = "";
         $this->layout->main = View::make('admin.dashboard');
     }
+
+    public function sales(){
+        $this->layout->sidebar = "";
+        $this->layout->main = View::make('admin.sales');
+    }
    
 }

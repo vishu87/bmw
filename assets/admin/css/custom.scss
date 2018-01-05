@@ -817,3 +817,7 @@ hr {
 		background: $green;
 	}
 }
+
+.page-header.navbar .hor-menu .navbar-nav>li.active>a, .page-header.navbar .hor-menu .navbar-nav>li.current>a {
+	background: #3080a9 !important;
+}

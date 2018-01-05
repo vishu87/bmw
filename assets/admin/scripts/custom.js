@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    var table = $('#table').DataTable();
+    // var table = $('#table').DataTable();
     
-    $(".select2").select2();
+    // $(".select2").select2();
 
-    $('.check_form').validate();
+    // $('.check_form').validate();
 
 });
 

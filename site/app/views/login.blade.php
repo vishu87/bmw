@@ -83,7 +83,7 @@
                                         
                                     </div>
                                     <div style="text-align: center;">
-                                        <a href="#">Forget Passowrd?</a>
+                                        <a href="#">Forgot Password?</a>
                                     </div>
                                     
 

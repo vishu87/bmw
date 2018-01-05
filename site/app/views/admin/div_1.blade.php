@@ -50,6 +50,30 @@
                             <div class="circle-s green"></div>
                         </td>
                     </tr>
+                    <tr>
+                        <td>Target Achievement</td>
+                        <td>96%</td>
+                        <td>80%</td>
+                        <td>
+                            <div class="circle-s yellow"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C8I YTD Sales</td>
+                        <td>90</td>
+                        <td>91</td>
+                        <td>
+                            <div class="circle-s"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Conversion Ratio</td>
+                        <td>11.3%</td>
+                        <td>8.8%</td>
+                        <td>
+                            <div class="circle-s green"></div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
 

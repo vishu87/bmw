@@ -55,7 +55,7 @@
         <link rel="shortcut icon" href="{{url('favicon.ico')}}" /> </head>
     <!-- END HEAD -->
 
-    <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width" ng-app="myApp">
+    <body class="login page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width" ng-app="myApp">
         
         <div class="page-wrapper">
             <!-- BEGIN HEADER -->
@@ -225,6 +225,9 @@
         {{HTML::script('assets/admin/scripts/angular-selectize.js')}}        
 
         {{HTML::script('assets/admin/scripts/app.js?v=1.0.1')}}
+
+        {{HTML::script('assets/admin/scripts/echarts.common.min.js')}}
+
         {{HTML::script('assets/admin/scripts/custom.js?version=1.0.2')}}
         
 

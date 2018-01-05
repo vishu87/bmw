@@ -10,6 +10,17 @@
     </div>
 </div>
 
+<div style="background:#FFF; padding: 50px 0">
+    <div class="container">
+        @include('admin.div_1')
+        @include('admin.div_2')
+        @include('admin.div_3')
+        @include('admin.div_4')
+        @include('admin.div_5')
+        @include('admin.div_6')
+    </div>
+</div>
+
 <script type="text/javascript">
     function gotosales(){
         location.href = '{{url('/')}}/sales';

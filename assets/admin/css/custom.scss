@@ -688,3 +688,132 @@ hr {
 	color: white;
 	padding-left: 20px;
 }
+
+.coaching {
+	.item {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #EEE;
+		.table {
+			display: table;
+			margin-bottom: 0;
+			> div {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+		.date {
+			font-size: 16px;
+			 width: 50px;
+		    text-align: center;
+		    background: #8e8e8e;
+		    color: white;
+		}
+		.dets {
+			padding-left: 10px;
+			> div {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+		}
+	}
+}
+
+.risk {
+	.item {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #EEE;
+		.table {
+			display: table;
+			margin-bottom: 0;
+			> div {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+		.date {
+			font-size: 16px;
+			 width: 50px;
+		    text-align: center;
+		    background: #8e8e8e;
+		    color: white;
+		}
+		.dets {
+			/*padding-left: 10px;*/
+			> div {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+		}
+	}
+}
+
+.status {
+	.item {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #EEE;
+		.table {
+			display: table;
+			margin-bottom: 0;
+			> div {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+		.date {
+			font-size: 16px;
+			 width: 50px;
+		    text-align: center;
+		    background: #8e8e8e;
+		    color: white;
+		}
+		.dets {
+			/*padding-left: 10px;*/
+			> div {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+		}
+	}
+}
+
+.status-table {
+	tr {
+		
+		td {
+			font-size: 12px;
+			text-align: center;
+			font-weight: bold;
+			&:first-child {
+				text-align: left;
+				font-size: 13px;
+			}
+
+		}
+	}
+	thead {
+		tr {
+			th {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+.circle-s {
+	width: 14px;
+	height: 14px;
+	margin: 0 auto;
+	border-radius: 50% !important;
+	background: $red;
+
+	&.yellow {
+		background: #F1C40F;
+	}
+
+	&.green {
+		background: $green;
+	}
+}

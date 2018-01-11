@@ -133,7 +133,9 @@ var options1 = {
     ],
     yAxis : [
         {
-            type : 'value'
+            type : 'value',
+            min: -10,
+            max: 10
         }
     ],
     series : [
@@ -159,6 +161,7 @@ var options1 = {
 };
 
 var options2 = {
+
     tooltip : {
         trigger: 'axis',
         axisPointer : {            // 坐标轴指示器，坐标轴触发有效
@@ -166,7 +169,8 @@ var options2 = {
         }
     },
     grid: {
-        left: '3%',
+        top: 10,
+        left: '7%',
         right: '4%',
         bottom: '3%',
         containLabel: true
@@ -174,7 +178,7 @@ var options2 = {
     xAxis : [
         {
             type : 'category',
-            data : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+            data : ['Jul-17','Aug-17','Sep-17','Oct-17', 'Nov-17', 'Dec-17', 'Jan-18'],
             axisTick: {
                 alignWithLabel: true
             }
@@ -182,7 +186,11 @@ var options2 = {
     ],
     yAxis : [
         {
-            type : 'value'
+            type : 'value',
+            max: 15,
+            name: 'Outperformance (%)',
+            nameLocation : 'center',
+            nameGap: 28
         }
     ],
     series : [
@@ -190,74 +198,59 @@ var options2 = {
             name:'直接访问',
             type:'bar',
             barWidth: '60%',
-            data:[10, 52, 200, 334, 390, 330, 220]
+            data:[9,7,3,8,10,12,12]
         }
     ]
 };
 
-
-var options3 = {
+var options3 = { // coaching module
     tooltip : {
         trigger: 'axis',
-        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        axisPointer : {    
+            type : 'shadow'
         }
     },
-    legend: {
-        data: ['Health Check', 'Coaching Days','Review Days']
+    color : ['#2f4554'],
+    legend : {
+        bottom: 0
     },
     grid: {
-        left: '3%',
+        top: 10,
+        left: '5%',
         right: '4%',
         bottom: '3%',
         containLabel: true
     },
-    xAxis:  {
-        type: 'value'
-    },
-    yAxis: {
-        type: 'category',
-        data: ['Jan','Feb','Mar','Apr','May']
-    },
-    series: [
+    xAxis : [
         {
-            name: 'Health Check',
-            type: 'bar',
-            stack: '总量',
-            label: {
-                normal: {
-                    show: true,
-                    position: 'insideRight'
-                }
-            },
-            data: [320, 302, 301, 334, 390]
-        },
+            type : 'category',
+            data : ['DJ', 'Kunal', 'Rajesh', 'Amit'],
+            axisTick: {
+                alignWithLabel: true
+            }
+        }
+    ],
+    yAxis : [
         {
-            name: 'Coaching Days',
-            type: 'bar',
-            stack: '总量',
-            label: {
-                normal: {
-                    show: true,
-                    position: 'insideRight'
-                }
-            },
-            data: [120, 132, 101, 134, 90]
-        },
+            type : 'value',
+            min: 0,
+            max: 100,
+            name: '% Completed',
+            nameLocation : 'center',
+            nameGap: 30
+        }
+    ],
+    series : [
         {
-            name: 'Review Days',
-            type: 'bar',
-            stack: '总量',
-            label: {
-                normal: {
-                    show: true,
-                    position: 'insideRight'
-                }
-            },
-            data: [220, 182, 191, 234, 290]
+            name:'直接访问',
+            type:'bar',
+            barWidth: '60%',
+            data:[60, 75, 78, 65]
         }
     ]
 };
+
+
 
 $(document).ready(function() {
    	var myChart1 = echarts.init(document.getElementById("chart1"));

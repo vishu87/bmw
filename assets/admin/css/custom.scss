@@ -827,3 +827,15 @@ hr {
 .portlet.light.bordered {
 	min-height: 360px;
 }
+
+.date-cal {
+	text-align: center;
+	padding: 6px 4px !important;
+	span {
+		font-size: 9px;
+		background: $blue;
+		color: #FFF;
+		display: block;
+		padding: 0 2px;
+	}
+}

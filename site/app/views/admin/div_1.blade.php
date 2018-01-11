@@ -15,8 +15,11 @@
             </div>
         </div>
         <div class="portlet-body">
-            
-            <table class="table status-table">
+            <div>
+                <img src="{{url('/assets/img/sales.png')}}" style="width:100%; height: auto"><br>
+                <div style="margin-top:5px; text-align:center"><i>Illustrative Image</i></div>
+            </div>
+            <table class="table status-table hidden">
                 <thead>
                     <tr>
                         <th></th>

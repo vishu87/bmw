@@ -119,7 +119,7 @@ $(document).on("change","#addressBookType",function(){
 var options1 = {
 	legend : {
 		show: true,
-		data: ["BMW 3","BMW Gran","BMW 5"]
+		data: ["RPM Dealers","Peergroup","Outperformance vs Peergroup Target"]
 	},
     tooltip : {
         trigger: 'axis'
@@ -138,22 +138,22 @@ var options1 = {
     ],
     series : [
         {
-            name:'BMW 3',
+            name:'RPM Dealers',
             type:'line',
-            stack: 'BMW 3',
-            data:[120, 132, 101, 134]
+            stack: 'RPM Dealers',
+            data:[2, 7, 3, 8]
         },
         {
-            name:'BMW Gran',
+            name:'Peergroup',
             type:'line',
-            stack: 'BMW Gran',
-            data:[220, 182, 191, 234]
+            stack: 'Peergroup',
+            data:[-6, -1, 2, 1]
         },
         {
-            name:'BMW 5',
+            name:'Outperformance vs Peergroup Target',
             type:'line',
-            stack: 'BMW 5',
-            data:[150, 232, 201, 154]
+            stack: 'Outperformance vs Peergroup Target',
+            data:[7, 7, 7, 7]
         }
     ]
 };

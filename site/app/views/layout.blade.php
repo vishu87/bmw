@@ -91,7 +91,7 @@
                         <ul class="nav navbar-nav pull-right">
                             <li class="dropdown dropdown-user">
                                 <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                    <img alt="" class="img-circle" src="{{(Auth::user()->profile_photo && Auth::user()->profile_photo != '')?url(Auth::user()->profile_photo):url('assets/layouts/layout/img/avatar.png')}}" />
+                                    <img alt="" class="img-circle" src="{{(Auth::user()->profile_photo && Auth::user()->profile_photo != '')?url(Auth::user()->profile_photo):url('assets/img/avatar.jpg')}}" />
                                     <span class="username username-hide-on-mobile">{{(isset(Auth::user()->username))?Auth::user()->name:''}}</span>
                                     <i class="fa fa-angle-down"></i>
                                 </a>

@@ -195,7 +195,7 @@ var options2 = {
     ],
     series : [
         {
-            name:'直接访问',
+            name:'Outperformance',
             type:'bar',
             barWidth: '60%',
             data:[9,7,3,8,10,12,12]
@@ -242,7 +242,7 @@ var options3 = { // coaching module
     ],
     series : [
         {
-            name:'直接访问',
+            name:'Completion',
             type:'bar',
             barWidth: '60%',
             data:[60, 75, 78, 65]

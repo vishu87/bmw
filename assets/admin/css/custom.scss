@@ -358,7 +358,7 @@ div.dataTables_wrapper div.dataTables_length select{
 
 .login {
 	height: 100%;
-	background-image: url('../../img/back2.jpg');
+	background-image: url('../../img/back5.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -626,6 +626,7 @@ hr {
 	    color: #a8a8a8;
 	    font-size: 100px;
 	    color: white;
+	    opacity: 0.3;
 	}
 	.text {
 		position: absolute;
@@ -643,6 +644,7 @@ hr {
 		}
 		.icon {
 			color: #8e8e8e;
+			opacity: 0.6;
 		}
 	}
 }
@@ -816,4 +818,12 @@ hr {
 	&.green {
 		background: $green;
 	}
+}
+
+.page-header.navbar .hor-menu .navbar-nav>li.active>a, .page-header.navbar .hor-menu .navbar-nav>li.current>a {
+	background: #3080a9 !important;
+}
+
+.portlet.light.bordered {
+	min-height: 360px;
 }

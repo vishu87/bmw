@@ -15,37 +15,21 @@
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
         {{HTML::style('assets/global/plugins/font-awesome/css/font-awesome.min.css')}}
-        {{HTML::style('assets/global/plugins/simple-line-icons/simple-line-icons.min.css')}}
         {{HTML::style('assets/global/plugins/bootstrap/css/bootstrap.min.css')}}
         <!-- END GLOBAL MANDATORY STYLES -->
 
-        {{HTML::style('assets/global/plugins/datatables/datatables.min.css')}}
-        {{HTML::style('assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css')}}
-        {{HTML::style('assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')}}
+        
         <!-- BEGIN THEME GLOBAL STYLES -->
         {{HTML::style('assets/global/css/components.min.css')}}
         {{HTML::style('assets/global/css/plugins.min.css')}}
         <!-- END THEME GLOBAL STYLES -->
 
-        {{HTML::style('assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css')}}
-        {{HTML::style('assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css')}}
-
-        {{HTML::style('assets/global/plugins/select2/css/select2.min.css')}}
-        {{HTML::style('assets/global/plugins/select2/css/select2-bootstrap.min.css')}}
-        {{HTML::style('assets/global/plugins/jquery-notific8/jquery.notific8.min.css')}}
         <!-- BEGIN THEME LAYOUT STYLES -->
 
         {{HTML::style('assets/layouts/layout/css/layout.min.css')}}
         {{HTML::style('assets/layouts/layout/css/themes/darkblue.min.css')}}
         {{HTML::style('assets/layouts/layout/css/custom.min.css')}}
-        {{HTML::style('assets/admin/css/ladda-themeless.min.css')}}
         
-        {{HTML::style('assets/admin/css/angular-datatables.min.css')}}
-        {{HTML::style('assets/admin/css/angular-tooltips.min.css')}}
-
-        {{HTML::style('assets/admin/css/ng-img-crop.css')}}
-        {{HTML::style('assets/admin/css/spinner.css')}}   
-
         {{HTML::style('assets/admin/css/custom.css?v=1.0.2')}}
 
         
@@ -74,7 +58,7 @@
                             <!-- DOC: Remove data-hover="megamenu-dropdown" and data-close-others="true" attributes below to disable the horizontal opening on mouse hover -->
                             <li class="classic-menu-dropdown active" aria-haspopup="true">
                                 <a href="{{url('/dashboard')}}"> Progam Manager
-                                    <span class="selected"> </span>
+                                    
                                 </a>
                             </li>
                             <!-- <li class="classic-menu-dropdown " aria-haspopup="true">
@@ -176,70 +160,21 @@
         <!-- BEGIN CORE PLUGINS -->
         {{HTML::script('assets/global/plugins/jquery.min.js')}}
 
-        {{HTML::script('assets/admin/scripts/selectize.min.js')}}  
 
         {{HTML::script('assets/global/plugins/bootstrap/js/bootstrap.min.js')}}
-        {{HTML::script('assets/global/plugins/js.cookie.min.js')}}
-
-        {{HTML::script('assets/global/scripts/datatable.min.js')}}
-        {{HTML::script('assets/global/plugins/datatables/datatables.min.js')}}
-        {{HTML::script('assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js')}}
-
-        {{HTML::script('assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js')}}
-        {{HTML::script('assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js')}}
-
-        {{HTML::script('assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}
-        {{HTML::script('assets/global/plugins/select2/js/select2.full.min.js')}}
-        {{HTML::script('assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js')}}
-        {{HTML::script('assets/global/plugins/jquery-notific8/jquery.notific8.min.js')}}
-
-        <!-- END CORE PLUGINS -->
-        {{HTML::script('assets/global/plugins/jquery-validation/js/jquery.validate.min.js')}}
-
         
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
-        {{HTML::script('assets/global/scripts/bootbox.min.js')}}
-        {{HTML::script('assets/global/scripts/app.min.js')}}
-
-        {{HTML::script('assets/scripts/ui-confirmations.min.js')}}
-
-        <!-- END THEME GLOBAL SCRIPTS -->
         
-        {{HTML::script('assets/layouts/layout/scripts/layout.min.js')}}
+        
 
         <!-- BEGIN ANGULAR SCRIPTS -->
-        {{HTML::script('assets/admin/scripts/angular.min.js')}}
-        {{HTML::script('assets/admin/scripts/angular-sanitize.js')}}
-        {{HTML::script('assets/admin/scripts/select.min.js')}}
-        {{HTML::script('assets/admin/scripts/jcs-auto-validate.js')}}
-        {{HTML::script('assets/admin/scripts/filter.js')}}
-        {{HTML::script('assets/admin/scripts/spin.min.js')}}
-        {{HTML::script('assets/admin/scripts/ladda.min.js')}}
-        {{HTML::script('assets/admin/scripts/angular-ladda.min.js')}}
-        {{HTML::script('assets/admin/scripts/angular-datatables.min.js')}}
-        {{HTML::script('assets/admin/scripts/angular-tooltips.min.js')}}
-        {{HTML::script('assets/admin/scripts/ng-img-crop.js')}}
-        {{HTML::script('assets/admin/scripts/ng-file-upload-shim.min.js')}}
-        {{HTML::script('assets/admin/scripts/ng-file-upload.min.js')}}
-
-        {{HTML::script('assets/admin/scripts/angular-selectize.js')}}        
-
-        {{HTML::script('assets/admin/scripts/app.js?v=1.0.1')}}
+        
 
         {{HTML::script('assets/admin/scripts/echarts.common.min.js')}}
 
         {{HTML::script('assets/admin/scripts/custom.js?version=1.0.2')}}
         
 
-        <script type="text/javascript">
-            @if(Session::has('success'))
-                $.notific8('{{Session::get('success')}}',{life:4000,theme: 'lemon'});
-            @endif
-            @if(Session::has('failure'))
-                $.notific8('{{Session::get('failure')}}',{life:4000,theme: 'ruby'});
-            @endif
-        </script>
-        <!-- END THEME LAYOUT SCRIPTS -->
     </body>
 
 </html>

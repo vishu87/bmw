@@ -21,7 +21,7 @@
                 <div class="dash-on">
                     <div class="text">Digital</div>
                     <div class="icon">
-                        <i class="fa fa-bar-chart"></i>
+                        <i class="fa fa-wifi"></i>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                 <div class="dash-on">
                     <div class="text">Data Management</div>
                     <div class="icon">
-                        <i class="fa fa-bar-chart"></i>
+                        <i class="fa fa-database"></i>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="dash-on">
                     <div class="text">Project Management</div>
                     <div class="icon">
-                        <i class="fa fa-bar-chart"></i>
+                        <i class="fa fa-pie-chart"></i>
                     </div>
                 </div>
             </div>

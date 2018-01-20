@@ -4,7 +4,7 @@
     
     <head>
         <meta charset="utf-8" />
-        <title>AIFF | ADMINISTRATION</title>
+        <title>Project Management Tool</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         
@@ -30,7 +30,7 @@
     <!-- END HEAD -->
 
     <body class="login">
-        <div class="">
+        <div class="top-logo">
             <div style="padding: 10px;">
                 <img src="assets/img/ernst-young-ey.svg" style="width: 100px; height: auto">
             </div>
@@ -38,7 +38,7 @@
         <!-- BEGIN LOGIN -->
         <div class="container">
             <div class="row" style="margin-top:-50px">
-            <div class="col-md-4 col-md-offset-4">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2">
                 <div class="content">
                     <div class="row">
                         <div class="col-md-12">

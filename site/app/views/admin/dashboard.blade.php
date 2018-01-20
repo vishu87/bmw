@@ -1,7 +1,7 @@
-<div style="margin-top: 100px; padding: 80px 0;">
+<div class="dashboard-section">
     <div class="container-fluid dash-img">
         <div class="row">
-            <div class="col-md-2 col-md-offset-1">
+            <div class="col-md-2 col-sm-6 dash-item-front col-md-offset-1">
                 <div class="dash-on" onclick="gotosales()">
                     <div class="text">Sales</div>
                     <div class="icon">
@@ -9,7 +9,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6 dash-item-front">
                 <div class="dash-on">
                     <div class="text">After Sales</div>
                     <div class="icon">
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6 dash-item-front">
                 <div class="dash-on">
                     <div class="text">Digital</div>
                     <div class="icon">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6 dash-item-front">
                 <div class="dash-on">
                     <div class="text">Data Management</div>
                     <div class="icon">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6 dash-item-front">
                 <div class="dash-on">
                     <div class="text">Project Management</div>
                     <div class="icon">

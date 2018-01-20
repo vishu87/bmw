@@ -7,10 +7,10 @@
     </div> -->
     <div class="container-fluid title">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 Sales Dashboard
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-md-6 col-xs-6 text-right">
                 <a href="{{url('/dashboard')}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>
             </div>
         </div>

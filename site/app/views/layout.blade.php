@@ -14,6 +14,8 @@
         <meta content="" name="author" />
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+
         {{HTML::style('assets/global/plugins/font-awesome/css/font-awesome.min.css')}}
         {{HTML::style('assets/global/plugins/bootstrap/css/bootstrap.min.css')}}
         <!-- END GLOBAL MANDATORY STYLES -->
@@ -49,7 +51,7 @@
                     
                     <div class="page-logo">
                         <a href="#">
-                            <img src="{{url('/assets/img/bmw2.png')}}" style="height: 44px; width: auto; margin-top: 5px">
+                            <img src="{{url('/assets/img/bmw21.png')}}" style="height: 44px; width: auto; margin-top: 5px">
                         </a>
                     </div>
 

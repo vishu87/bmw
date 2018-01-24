@@ -3,14 +3,31 @@ $blue: #25398f;
 $green: #028446;
 $orange: #f36b21;
 $red: #bf2020;
-$cabin : 'Cabin', sans-serif !important;
+
+@font-face {
+    font-family: 'bmw_groupregular';
+    src: url('bmwgroup_regular-webfont.woff2') format('woff2'),
+         url('bmwgroup_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body {
 	height: 100%;
+	font-family: 'bmw_groupregular';
+	// font-family: 'Hind', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Cabin', sans-serif !important;	
+	
+}
+
+.page-header.navbar .hor-menu .navbar-nav>li>a {
+	padding-top: 16px;
+}
+.page-header.navbar .hor-menu {
+	margin-left: 100px;
 }
 
 .page-content{
@@ -587,7 +604,7 @@ hr {
 			.label {
 				font-size: 40px;
 				text-align: left;
-				font-family: $cabin;
+				
 				text-transform: uppercase;
 				font-weight: 400;
 				letter-spacing: 1px;
@@ -634,7 +651,7 @@ hr {
 	    padding: 10px;
 	    color: #FFF;
 	    font-size: 22px;
-	    font-weight: 600;
+	    // font-weight: 600;
 	    /*text-transform: uppercase;*/
 	}
 	&:hover {

@@ -8,7 +8,7 @@
     <div class="container-fluid title">
         <div class="row">
             <div class="col-md-6 col-xs-6">
-                Sales Dashboard
+                <div style="margin-top: 5px">Sales Dashboard</div>
             </div>
             <div class="col-md-6 col-xs-6 text-right">
                 <a href="{{url('/dashboard')}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>

@@ -1,7 +1,7 @@
 <div class="dashboard-section">
     <div class="container-fluid dash-img">
         <div class="row">
-            <div class="col-md-2 col-sm-6 dash-item-front col-md-offset-1">
+            <div class="col-md-2 col-sm-6 dash-item-front ">
                 <div class="dash-on" onclick="gotosales()">
                     <div class="text">Sales</div>
                     <div class="icon">
@@ -38,6 +38,14 @@
                     <div class="text">Project Management</div>
                     <div class="icon">
                         <i class="fa fa-pie-chart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 dash-item-front">
+                <div class="dash-on">
+                    <div class="text">VOC</div>
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
                     </div>
                 </div>
             </div>

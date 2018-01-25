@@ -23,11 +23,28 @@ h1, h2, h3, h4, h5, h6 {
 	
 }
 
+.portlet.light>.portlet-title>.actions {
+	padding: 0;
+}
 .page-header.navbar .hor-menu .navbar-nav>li>a {
 	padding-top: 16px;
 }
 .page-header.navbar .hor-menu {
 	margin-left: 100px;
+}
+
+.next-btn {
+	background: #E85058;
+	color: #FFF;
+	width: 30px;
+	height: 30px;
+	border-radius: 50% !important;
+	display: inline-block;
+	font-size: 25px;
+    padding-left: 11px;
+    &:hover {
+    	color: #FFF;
+    }
 }
 
 .page-content{

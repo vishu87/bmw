@@ -32,7 +32,7 @@
         {{HTML::style('assets/layouts/layout/css/themes/darkblue.min.css')}}
         {{HTML::style('assets/layouts/layout/css/custom.min.css')}}
         
-        {{HTML::style('assets/admin/css/custom.css?v=1.0.4')}}
+        {{HTML::style('assets/admin/css/custom.css?v=1.0.5')}}
 
         
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.8.5/css/selectize.default.css">
@@ -174,7 +174,7 @@
 
         {{HTML::script('assets/admin/scripts/echarts.common.min.js')}}
 
-        {{HTML::script('assets/admin/scripts/custom.js?version=1.0.4')}}
+        {{HTML::script('assets/admin/scripts/custom.js?version=1.0.5')}}
         
 
     </body>

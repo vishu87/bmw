@@ -119,7 +119,7 @@ $(document).on("change","#addressBookType",function(){
 var options1 = {
 	legend : {
 		show: true,
-		data: ["RPM Dealers","Peergroup","Outperformance vs Peergroup Target"]
+		data: ["RPM Dealers","Peergroup"]
 	},
     tooltip : {
         trigger: 'axis'
@@ -150,12 +150,6 @@ var options1 = {
             type:'line',
             stack: 'Peergroup',
             data:[-6, -1, 2, 1]
-        },
-        {
-            name:'Outperformance vs Peergroup Target',
-            type:'line',
-            stack: 'Outperformance vs Peergroup Target',
-            data:[7, 7, 7, 7]
         }
     ]
 };

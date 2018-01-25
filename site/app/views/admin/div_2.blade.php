@@ -7,11 +7,7 @@
                 <span class="caption-subject font-dark bold uppercase">Sales Development</span>
             </div>
             <div class="actions">
-                <div class="btn-group btn-group-devided" data-toggle="buttons">
-                    <label class="btn red btn-outline btn-circle btn-sm active">
-                        <input type="radio" name="options" class="toggle" id="option1"><i class="fa fa-chevron-right"></i>
-                    </label>
-                </div>
+                <a href="#" class="next-btn"><i class="fa fa-angle-right"></i></a>
             </div>
         </div>
         <div class="portlet-body">

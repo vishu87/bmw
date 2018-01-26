@@ -16,8 +16,28 @@
                     <div class="table">
                         
                         <div class="dets">
-                            <div>Dealer on hold due to XYZ issue</div>
-                            <span class="label label-sm label-warning "> On going</span>
+                            <div>KUN Exclusive Chennai - Man Power</div>
+                            <span class="label label-sm label-warning "> Moderate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="table">
+                        
+                        <div class="dets">
+                            <div>Incentives not paid</div>
+                            <span class="label label-sm label-danger "> Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="table">
+                        
+                        <div class="dets">
+                            <div>Module on Hold</div>
+                            <span class="label label-sm label-danger "> Urgent</span>
                         </div>
                     </div>
                 </div>
@@ -27,27 +47,7 @@
                         
                         <div class="dets">
                             <div>Dealer on hold due to XYZ issue</div>
-                            <span class="label label-sm label-warning "> On going</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="table">
-                        
-                        <div class="dets">
-                            <div>Dealer on hold due to XYZ issue</div>
-                            <span class="label label-sm label-warning "> On going</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="table">
-                        
-                        <div class="dets">
-                            <div>Dealer on hold due to XYZ issue</div>
-                            <span class="label label-sm label-warning "> On going</span>
+                            <span class="label label-sm label-warning "> Moderate</span>
                         </div>
                     </div>
                 </div>

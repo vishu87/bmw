@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 	
 }
 
+.portlet.light>.portlet-title>.caption {
+	padding: 7px 0 10px 0;
+}
+
 .portlet.light>.portlet-title>.actions {
 	padding: 0;
 }
@@ -42,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	font-size: 25px;
     padding-left: 11px;
+    line-height: 1.1;
     &:hover {
     	color: #FFF;
     }
@@ -898,10 +903,37 @@ footer {
 	background: rgba(0,0,0,1);
 }
 
+.folders {
+	.item {
+		text-align: center;
+		.folder {
+			margin-bottom: 15px;
+			padding: 10px;
+			border: 1px solid #EEE;
+			.icon {
+				font-size: 24px;
+			}
+			.text {
+				font-size: 13px;
+			}
+			&:hover {
+				background: #EEE;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.dash-row {
+		margin-left: -15px;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.page-content-wrapper .page-content {
 		padding: 0 !important;
 	}
+	
     .dashboard-section {
 		margin-top: 0;
 		padding: 40px 20px;

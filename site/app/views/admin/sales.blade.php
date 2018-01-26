@@ -25,6 +25,7 @@
         @include('admin.div_4')
         @include('admin.div_5')
         @include('admin.div_6')
+        @include('admin.div_7')
     </div>
 </div>
 

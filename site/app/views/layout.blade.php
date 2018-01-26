@@ -20,6 +20,9 @@
         {{HTML::style('assets/global/plugins/bootstrap/css/bootstrap.min.css')}}
         <!-- END GLOBAL MANDATORY STYLES -->
 
+        {{HTML::style('assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css')}}
+        {{HTML::style('assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css')}}
+
         
         <!-- BEGIN THEME GLOBAL STYLES -->
         {{HTML::style('assets/global/css/components.min.css')}}
@@ -32,7 +35,7 @@
         {{HTML::style('assets/layouts/layout/css/themes/darkblue.min.css')}}
         {{HTML::style('assets/layouts/layout/css/custom.min.css')}}
         
-        {{HTML::style('assets/admin/css/custom.css?v=1.0.5')}}
+        {{HTML::style('assets/admin/css/custom.css?v=1.0.6')}}
 
         
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.8.5/css/selectize.default.css">
@@ -149,6 +152,108 @@
             </div>
         </footer>
 
+        <div id="modal1" class="modal fade in modal-overflow" data-width="480">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Details</h4>
+            </div>
+            <div class="modal-body">
+                  <div class="folders row">
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Pre Analysis</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Kick Off</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Status Check</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Result Presentation</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Coaching</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Final Check</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Best Practices</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-6">
+                            <div class="folder">
+                                <div class="icon">
+                                    <i class="fa fa-folder-o"></i>
+                                </div>
+                                <div class="text">
+                                    <div>Photos</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+
+        </div>
+
+
         <script type="text/javascript">
             var base_url = "{{url('/')}}";
             var api_token = '{{Session::get('api_token')}}';
@@ -165,6 +270,9 @@
 
 
         {{HTML::script('assets/global/plugins/bootstrap/js/bootstrap.min.js')}}
+
+        {{HTML::script('assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js')}}
+        {{HTML::script('assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js')}}
         
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         
@@ -175,7 +283,8 @@
 
         {{HTML::script('assets/admin/scripts/echarts.common.min.js')}}
 
-        {{HTML::script('assets/admin/scripts/custom.js?version=1.0.5')}}
+        {{HTML::script('assets/admin/scripts/custom.js?version=1.0.6')}}
+        
         
 
     </body>

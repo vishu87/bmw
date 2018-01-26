@@ -256,3 +256,8 @@ $(document).ready(function() {
     var myChart3 = echarts.init(document.getElementById("chart3"));
     myChart3.setOption(options3);
 });
+
+
+$(".folder").click(function(e){
+    $("#modal1").modal('show');
+});

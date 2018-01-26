@@ -24,6 +24,7 @@
                             <th>S</th>
                         </tr>
                     </thead>
+                    <?php $names = ["EVM","KUN","Navnit","Bavaria","RPM"] ?>
                     <tbody>
                         <tr>
                         <?php
@@ -39,7 +40,7 @@
                                 echo '<td class="date-cal">';
                                 echo '<div>'.$i.'</div>';
                                 if(in_array($i, [1,4,8,9, 15,18,19,22,24,25,28])){
-                                    echo '<span>&nbsp;'.rand(2,10).'&nbsp;</span>';
+                                    echo '<span>&nbsp;'.$names[rand(0,4)].'&nbsp;</span>';
                                 }
                                 echo '</td>';
                                 $count++;

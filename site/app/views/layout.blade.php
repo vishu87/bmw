@@ -142,7 +142,11 @@
         </div>
 
         <footer>
-            2016 &copy;
+            <div class="text-center">
+                <a href="#">Contact Us</a> &nbsp;|&nbsp; 
+                <a href="#">Raise a ticket</a> &nbsp;|&nbsp; 
+                <a href="#">Help</a>
+            </div>
         </footer>
 
         <script type="text/javascript">

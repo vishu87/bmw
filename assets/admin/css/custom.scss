@@ -391,7 +391,7 @@ div.dataTables_wrapper div.dataTables_length select{
 }
 
 .login {
-	height: 100%;
+	min-height: 100%;
 	background-image: url('../../img/back5.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -881,9 +881,9 @@ hr {
 	padding: 80px 0 0 0;
 }
 .page-content-wrapper {
-	background-image: url(../../img/back5.jpg);
-	background-repeat: no-repeat;
-    background-size: cover;
+	// background-image: url(../../img/back5.jpg);
+	// background-repeat: no-repeat;
+ //    background-size: cover;
 }
 .dash-row {
 	margin-left: 50px;
@@ -891,6 +891,12 @@ hr {
 .clear-md {
 	clear: both;
 }
+
+footer {
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
 @media only screen and (max-width: 768px) {
 	.page-content-wrapper .page-content {
 		padding: 0 !important;

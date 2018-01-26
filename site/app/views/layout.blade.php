@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="{{url('favicon.ico')}}" /> </head>
     <!-- END HEAD -->
 
-    <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width" ng-app="myApp">
+    <body class="login page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width" ng-app="myApp">
         
         <div class="page-wrapper">
             <!-- BEGIN HEADER -->
@@ -137,16 +137,13 @@
             </div>
             <!-- END CONTAINER -->
             <!-- BEGIN FOOTER -->
-            <div class="page-footer">
-                <div class="page-footer-inner"> 2016 &copy;
-                    <a target="_blank" href="https://avyay.co.in/">Avyay Technolgies</a>
-                </div>
-                <div class="scroll-to-top">
-                    <i class="icon-arrow-up"></i>
-                </div>
-            </div>
+            
             <!-- END FOOTER -->
         </div>
+
+        <footer>
+            2016 &copy;
+        </footer>
 
         <script type="text/javascript">
             var base_url = "{{url('/')}}";

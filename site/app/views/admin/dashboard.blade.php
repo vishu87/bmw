@@ -1,4 +1,4 @@
-<div class="dashboard-section">
+<div class="dashboard-section container">
     <div class="container-fluid dash-img">
         <div class="row">
             <div class="col-md-3 col-sm-6 dash-item-front ">

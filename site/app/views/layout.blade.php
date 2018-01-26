@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="{{url('favicon.ico')}}" /> </head>
     <!-- END HEAD -->
 
-    <body class="login page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width" ng-app="myApp">
+    <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width" ng-app="myApp">
         
         <div class="page-wrapper">
             <!-- BEGIN HEADER -->
@@ -51,11 +51,11 @@
                     
                     <div class="page-logo">
                         <a href="#">
-                            <img src="{{url('/assets/img/bmw21.png')}}" style="height: 44px; width: auto; margin-top: 5px">
+                            <img src="{{url('/assets/img/bmw23.png')}}" style="height: 44px; width: auto; margin-top: 5px">
                         </a>
                     </div>
 
-                    <div class="hor-menu   hidden-sm hidden-xs">
+                    <div class="hor-menu hidden-sm hidden-xs">
                         <ul class="nav navbar-nav">
                             <!-- DOC: Remove data-hover="megamenu-dropdown" and data-close-others="true" attributes below to disable the horizontal opening on mouse hover -->
                             <li class="classic-menu-dropdown active" aria-haspopup="true">
@@ -137,14 +137,14 @@
             </div>
             <!-- END CONTAINER -->
             <!-- BEGIN FOOTER -->
-            <!-- <div class="page-footer">
+            <div class="page-footer">
                 <div class="page-footer-inner"> 2016 &copy;
                     <a target="_blank" href="https://avyay.co.in/">Avyay Technolgies</a>
                 </div>
                 <div class="scroll-to-top">
                     <i class="icon-arrow-up"></i>
                 </div>
-            </div> -->
+            </div>
             <!-- END FOOTER -->
         </div>
 

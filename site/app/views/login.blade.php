@@ -32,7 +32,7 @@
     <body class="login">
         <div class="top-logo">
             <div style="padding: 10px;">
-                <img src="assets/img/ernst-young-ey.svg" style="width: 100px; height: auto">
+                <img src="assets/img/EY-logo-li.png" style="width: 100px; height: auto">
             </div>
         </div>
         <!-- BEGIN LOGIN -->

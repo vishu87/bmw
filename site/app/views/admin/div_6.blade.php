@@ -37,7 +37,7 @@
                     <div class="table">
                         
                         <div class="dets">
-                            <div>Coaching on hold ,to be discussed with regional manager
+                            <div>Coaching on hold, to be discussed with regional manager
                             <span class="label label-sm label-danger "> Urgent</span></div>
                         </div>
                     </div>

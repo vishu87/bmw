@@ -256,8 +256,8 @@ $(document).ready(function() {
    	var myChart1 = echarts.init(document.getElementById("chart1"));
     myChart1.setOption(options1);
 
-    var myChart2 = echarts.init(document.getElementById("chart2"));
-    myChart2.setOption(options2);
+    // var myChart2 = echarts.init(document.getElementById("chart2"));
+    // myChart2.setOption(options2);
 
     var myChart3 = echarts.init(document.getElementById("chart3"));
     myChart3.setOption(options3);

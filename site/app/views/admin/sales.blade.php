@@ -29,9 +29,3 @@
         
     </div>
 </div>
-
-<script type="text/javascript">
-    function gotosales(){
-        location.href = '{{url('/')}}/sales';
-    }
-</script>

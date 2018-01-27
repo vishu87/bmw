@@ -1,4 +1,4 @@
-<div class="col-md-4 col-sm-6 clear-md">
+<div class="col-md-4 col-sm-6">
     <!-- BEGIN PORTLET-->
     <div class="portlet light bordered">
         <div class="portlet-title">

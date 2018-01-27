@@ -22,10 +22,11 @@
         @include('admin.div_1')
         @include('admin.div_2')
         @include('admin.div_3')
-        @include('admin.div_4')
-        @include('admin.div_5')
-        @include('admin.div_6')
         @include('admin.div_7')
+        @include('admin.div_4')
+        
+        @include('admin.div_6')
+        
     </div>
 </div>
 

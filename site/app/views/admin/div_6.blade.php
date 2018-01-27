@@ -16,8 +16,9 @@
                     <div class="table">
                         
                         <div class="dets">
-                            <div>KUN Exclusive Chennai - Man Power</div>
+                            <div>Attrition observed in sales function – Dealer A
                             <span class="label label-sm label-warning "> Moderate</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -26,8 +27,8 @@
                     <div class="table">
                         
                         <div class="dets">
-                            <div>Incentives not paid</div>
-                            <span class="label label-sm label-danger "> Urgent</span>
+                            <div>Inventive structure for Q2 to be reviewed – Dealer B
+                            <span class="label label-sm label-warning "> Moderate</span></div>
                         </div>
                     </div>
                 </div>
@@ -36,8 +37,8 @@
                     <div class="table">
                         
                         <div class="dets">
-                            <div>Module on Hold</div>
-                            <span class="label label-sm label-danger "> Urgent</span>
+                            <div>Coaching on hold ,to be discussed with regional manager
+                            <span class="label label-sm label-danger "> Urgent</span></div>
                         </div>
                     </div>
                 </div>
@@ -46,8 +47,8 @@
                     <div class="table">
                         
                         <div class="dets">
-                            <div>Dealer on hold due to XYZ issue</div>
-                            <span class="label label-sm label-warning "> Moderate</span>
+                            <div>Coaching action plan mid module review dates clashing with dealer meet
+                            <span class="label label-sm label-success "> Low</span></div>
                         </div>
                     </div>
                 </div>

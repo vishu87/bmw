@@ -119,7 +119,7 @@ $(document).on("change","#addressBookType",function(){
 var options1 = {
 	legend : {
 		show: true,
-		data: ["RPM Dealers","Peergroup"]
+		data: ["RPM Dealers","Peergroup","Sales Outperformance"]
 	},
     tooltip : {
         trigger: 'axis'
@@ -128,7 +128,7 @@ var options1 = {
         {
             type : 'category',
             boundaryGap : false,
-            data : ['Jan','Feb','Mar','Apr']
+            data : ['Apr 18','May 18','Jun 18','Jul 18']
         }
     ],
     yAxis : [
@@ -150,6 +150,12 @@ var options1 = {
             type:'line',
             stack: 'Peergroup',
             data:[-6, -1, 2, 1]
+        },
+        {
+            name:'Sales Outperformance',
+            type:'line',
+            stack: 'Peergroup',
+            data:[7, 8, 7, 7]
         }
     ]
 };

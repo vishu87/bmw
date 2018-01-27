@@ -35,14 +35,7 @@
             </div>
         </div>
         <div class="row dash-row">
-            <div class="col-md-3 col-sm-6 dash-item-front col-md-offset-1">
-                <div class="dash-on">
-                    <div class="text">Project Management</div>
-                    <div class="icon">
-                        <i class="fa fa-pie-chart"></i>
-                    </div>
-                </div>
-            </div>
+            
             <div class="col-md-3 col-sm-6 dash-item-front">
                 <div class="dash-on">
                     <div class="text">VOC</div>
@@ -56,6 +49,14 @@
                     <div class="text">Used Cars</div>
                     <div class="icon">
                         <i class="fa fa-car"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 dash-item-front col-md-offset-1">
+                <div class="dash-on">
+                    <div class="text">Project Management</div>
+                    <div class="icon">
+                        <i class="fa fa-pie-chart"></i>
                     </div>
                 </div>
             </div>

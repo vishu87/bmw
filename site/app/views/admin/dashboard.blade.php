@@ -36,7 +36,7 @@
         </div>
         <div class="row dash-row">
             
-            <div class="col-md-3 col-sm-6 dash-item-front">
+            <div class="col-md-3 col-sm-6 dash-item-front  col-md-offset-1">
                 <div class="dash-on">
                     <div class="text">VOC</div>
                     <div class="icon">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 dash-item-front col-md-offset-1">
+            <div class="col-md-3 col-sm-6 dash-item-front">
                 <div class="dash-on">
                     <div class="text">Project Management</div>
                     <div class="icon">

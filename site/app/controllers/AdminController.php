@@ -38,6 +38,10 @@ class AdminController  extends BaseController {
     }
 
     public function projectManagement(){
+
+        Session::put('back-url', 'project-management');
+        Session::put('name', 'Project Management');
+
         $this->layout->sidebar = "";
         $this->layout->main = View::make('admin.sales.project_management');
     }

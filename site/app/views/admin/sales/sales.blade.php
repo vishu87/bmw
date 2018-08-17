@@ -2,7 +2,7 @@
     <div class="container-fluid title">
         <div class="row">
             <div class="col-md-6 col-xs-6">
-                <div style="margin-top: 5px">New Car Sales</div>
+                <div style="margin-top: 5px">{{Session::get("name")}}</div>
             </div>
             <div class="col-md-6 col-xs-6 text-right">
                 <a href="{{url('/dashboard')}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>
@@ -18,10 +18,10 @@
         @include('admin.sales.action_plans')
 
         @include('admin.sales.tasks_escalations')
+
+        @if(Session::get("name") == "New Car Sales")
         @include('admin.sales.kpi_dashboard')
-        
-        
-        
+        @endif
         
     </div>
 </div>

@@ -13,12 +13,31 @@
 
 <div style="background:#FFF; padding: 50px 0">
     <div class="container-fluid">
+        <form action="" method="GET">
+            <div style="margin-bottom: 20px">
+                <div class="row">
+                    <div class="col-md-4">
+                        <select class="form-control" name="dealer">
+                            <option>Select a dealer</option>
+                            <option>Dealer A</option>
+                            <option>Dealer B</option>
+                            <option>Dealer C</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn blue">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row">
         @include('admin.sales.equity_trend')
         @include('admin.sales.retail_trends')
         @include('admin.sales.test_drive')
         @include('admin.sales.conversion_ratio')
         @include('admin.sales.conversion_ratio_model')
         @include('admin.sales.model_source')
+        </div>
         
     </div>
 </div>

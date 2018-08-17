@@ -5,7 +5,7 @@
                 <div style="margin-top: 5px">Task/Escalations</div>
             </div>
             <div class="col-md-6 col-xs-6 text-right">
-                <a href="{{url('/sales')}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>
+                <a href="{{url(Session::get('back-url'))}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>
             </div>
         </div>
     </div>

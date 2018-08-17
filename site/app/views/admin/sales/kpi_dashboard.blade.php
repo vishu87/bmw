@@ -11,11 +11,25 @@
             </div>
         </div>
         <div class="portlet-body">
-            <div>
-                Equity trends
-            </div>
-            <div>
-                Retail trends
+            <div class="kpi-dash">
+                <div>
+                    Equity trends
+                </div>
+                <div>
+                    Retail trends
+                </div>
+                <div>
+                    Test Drive Ratios
+                </div>
+                <div>
+                    Conversion Ratios Source Wise
+                </div>
+                <div>
+                    Conversion Ratios Model Wise
+                </div>
+                <div>
+                    Model Wise & Source Wise Trends
+                </div>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <div class="dashboard-section container">
     <div class="container-fluid dash-img">
-        <div class="row dash-row">
-            <div class="col-md-3 col-sm-6 dash-item-front   col-md-offset-1 ">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 dash-item-front">
                 <div class="dash-on" onclick="gotosales()">
                     <div class="text">New Cars Sales</div>
                     <div class="icon">
@@ -9,16 +9,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 dash-item-front">
-                <div class="dash-on">
+            <div class="col-md-4 col-sm-6 dash-item-front">
+                <div class="dash-on"  onclick="gotousedsales()">
                     <div class="text">Used Cars Sales</div>
                     <div class="icon">
                         <i class="fa fa-clock-o"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 dash-item-front">
-                <div class="dash-on">
+            <div class="col-md-4 col-sm-6 dash-item-front">
+                <div class="dash-on"  onclick="gotodatamanagement()">
                     <div class="text">Data Management</div>
                     <div class="icon">
                         <i class="fa fa-database"></i>
@@ -26,25 +26,25 @@
                 </div>
             </div>
         </div>
-        <div class="row dash-row">
+        <div class="row">
             
-            <div class="col-md-3 col-sm-6 dash-item-front  col-md-offset-1">
-                <div class="dash-on">
+            <div class="col-md-4 col-sm-6 dash-item-front">
+                <div class="dash-on"  onclick="gotocustomervoice()">
                     <div class="text">Customer Satisfaction (Voice)</div>
                     <div class="icon">
                         <i class="fa fa-user"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 dash-item-front">
-                <div class="dash-on">
+            <div class="col-md-4 col-sm-6 dash-item-front">
+                <div class="dash-on"  onclick="gotorpmdealership()">
                     <div class="text">RPM Dealership Online</div>
                     <div class="icon">
                         <i class="fa fa-car"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 dash-item-front">
+            <div class="col-md-4 col-sm-6 dash-item-front">
                 <div class="dash-on" onclick="gotoproject()">
                     <div class="text">Project Management</div>
                     <div class="icon">
@@ -58,7 +58,23 @@
 
 <script type="text/javascript">
     function gotosales(){
-        location.href = '{{url('/')}}/sales';
+        location.href = '{{url('/')}}/new-car-sales';
+    }
+
+    function gotousedsales(){
+        location.href = '{{url('/')}}/used-car-sales';
+    }
+
+    function gotodatamanagement(){
+        location.href = '{{url('/')}}/data-management';
+    }
+
+    function gotocustomervoice(){
+        location.href = '{{url('/')}}/customer-satisfaction';
+    }
+
+    function gotorpmdealership(){
+        location.href = '{{url('/')}}/rpm-dealership';
     }
 
     function gotoproject(){

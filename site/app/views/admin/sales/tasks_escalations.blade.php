@@ -4,7 +4,7 @@
         <div class="portlet-title">
             <div class="caption">
                 <i class="icon-bar-chart font-dark hide"></i>
-                <span class="caption-subject font-dark bold uppercase">Task/Escalations</span>
+                <span class="caption-subject font-dark bold uppercase">Escalations</span>
             </div>
             <div class="actions">
                 <a href="{{url('sales/tasks-escalations')}}" class="next-btn"><i class="fa fa-angle-right"></i></a>

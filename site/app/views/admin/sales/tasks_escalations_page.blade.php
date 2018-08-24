@@ -17,6 +17,7 @@
             <thead>
                 <tr>
                     <th>Area</th>
+                    <th>Dealer Name</th>
                     <th>Issue</th>
                     <th>Mitigation</th>
                     <th>Responsibility</th>
@@ -27,6 +28,7 @@
             <tbody>
                 <tr>
                     <td>Sales</td>
+                    <td>Libra Autohaus</td>
                     <td>Dealer on hold due to XYZ issue</td>
                     <td>XYZ to be addressed</td>
                     <td>Kshitij/RM/Coach</td>
@@ -37,6 +39,7 @@
                 </tr>
                 <tr>
                     <td>Sales</td>
+                    <td>EVM Autokraft</td>
                     <td>Action plan Signed</td>
                     <td>NA</td>
                     <td>Coach</td>
@@ -47,6 +50,7 @@
                 </tr>
                 <tr>
                     <td>Sales</td>
+                    <td>Bird Automative, 4 IDC</td>
                     <td>Action plan Signed</td>
                     <td>NA</td>
                     <td>Coach</td>
@@ -57,6 +61,7 @@
                 </tr>
                 <tr>
                     <td>Sales</td>
+                    <td>Krishna Automobile, All</td>
                     <td>Action plan Signed</td>
                     <td>NA</td>
                     <td>Coach</td>

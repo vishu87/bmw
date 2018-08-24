@@ -31,12 +31,10 @@
             </div>
         </form>
         <div class="row">
-        @include('admin.sales.equity_trend')
         @include('admin.sales.retail_trends')
+        @include('admin.sales.equity_trend')
         @include('admin.sales.test_drive')
         @include('admin.sales.conversion_ratio')
-        @include('admin.sales.conversion_ratio_model')
-        @include('admin.sales.model_source')
         </div>
         
     </div>

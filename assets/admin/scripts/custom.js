@@ -278,7 +278,7 @@ var options_equity = {
             showMinLabel: true,
             fontSize: 12
         },
-        data : ['Walk-in','Inbound\ncalls','Outbound\ncalls','Internet','NSC','Existing\nOwners','Network','Own\nReferrals'],
+        data : ['Walk-in','Inbound\nPhone','Event','Internet','NSC','Networking','Outbound\nPhone','Own\nReferrals','Existing\nOwners',],
         silent: false
     },
     yAxis : [
@@ -291,16 +291,13 @@ var options_equity = {
         {
             name:'Target',
             type: 'bar',
-            stack: 'one',
-            barWidth: '40%',
-            data:[45,25,50,35,20,80,40,25]
+            barGap:0,
+            data:[45,25,10,35,35,20,40,25,80]
         },
         {
             name:'Achievement',
             type: 'bar',
-            stack: 'one',
-            barWidth: '40%',
-            data:[32,10,35,20,5,60,25,15]
+            data:[32,10,8,35,20,10,5,25,15,60]
         }
     ]
 };
@@ -327,7 +324,6 @@ var options_retail = {
     xAxis : [
         {
             type : 'category',
-            boundaryGap : false,
             data: ["3 Ser","5 Ser","7 Ser","X1","X3","X5","6 GT","Total"]
         }
     ],
@@ -341,13 +337,14 @@ var options_retail = {
     series : [
         {
             name:'Target',
-            type:'line',
+            type:'bar',
             stack: 'Target',
+            barGap: 0,
             data:[5,3,0,10,5,8,7,38]
         },
         {
             name:'Achievement',
-            type:'line',
+            type:'bar',
             stack: 'Achievement',
             data:[10,4,0,20,6,10,8,58]
         }

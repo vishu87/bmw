@@ -13,7 +13,7 @@
         <div class="portlet-body">
             <div class="kpi-dash">
                 <div>
-                    Equity trends
+                    Enquiry Trends
                 </div>
                 <div>
                     Retail trends

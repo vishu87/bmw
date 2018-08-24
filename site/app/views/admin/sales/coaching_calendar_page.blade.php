@@ -8,6 +8,26 @@
                 <a href="{{url(Session::get('back-url'))}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>
             </div>
         </div>
+
+        <form action="" method="GET">
+            <div style="margin-bottom: 20px">
+                <div class="row">
+                    <div class="col-md-4">
+                        <select class="form-control" name="dealer">
+                            <option>Select a Coach</option>
+                            <option>DJ</option>
+                            <option>Kunal</option>
+                            <option>Rajesh</option>
+                            <option>Amit</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn blue">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
     </div>
 </div>
 <?php

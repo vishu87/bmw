@@ -4,7 +4,7 @@
         <div class="portlet-title">
             <div class="caption">
                 <i class="icon-bar-chart font-dark hide"></i>
-                <span class="caption-subject font-dark bold uppercase">Equity Trend <span style="font-size:12px;">(Target vs Achievement)</span></span>
+                <span class="caption-subject font-dark bold uppercase">Enquiry Trends <span style="font-size:12px;">(Target vs Achievement)</span></span>
             </div>
             <div class="actions">
                 

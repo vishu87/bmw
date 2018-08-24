@@ -15,8 +15,7 @@
     <div class="container-fluid">
         @include('admin.sales.coaching_calendar')
         @include('admin.sales.coaching_module_progress')
-        @include('admin.sales.action_plans')
-
+       
         @include('admin.sales.tasks_escalations')
 
         @if(Session::get("name") == "New Car Sales")

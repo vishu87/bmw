@@ -11,13 +11,13 @@
     </div>
 </div>
 <?php
-    $ar1 = array(
-        "name" => "NSC or EY Internal",
-        "day" => 2,
-        "color" => "red",
-        "text" => "NSC or EY",
-        "subs" => array()
-    );
+    // $ar1 = array(
+    //     "name" => "NSC or EY Internal",
+    //     "day" => 2,
+    //     "color" => "red",
+    //     "text" => "NSC or EY",
+    //     "subs" => array()
+    // );
 
     $ar2 = array(
         "name" => "Aftersales",
@@ -57,7 +57,7 @@
         "subs" => []
     );
 
-    $calendars["DJ"] = [$ar1,$ar2,$ar3,$ar4];
+    $calendars["DJ"] = [$ar2,$ar3,$ar4];
     // $calendars["Kunal"] = [$ar1,$ar2,$ar3,$ar4];
 
     if(isset($_GET["coach"])){

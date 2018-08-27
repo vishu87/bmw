@@ -12,7 +12,33 @@
 </div>
 
 <div style="background:#FFF; padding: 50px 0">
-    <div class="container">
+    <div class="container-fluid">
+        <form action="" method="GET">
+            <div style="margin-bottom: 20px">
+                <div class="row">
+                    <div class="col-md-3">
+                        <select class="form-control" name="coach">
+                            <option value="">Select a Dealer</option>
+                            <option>Dealer A</option>
+                            <option>Dealer B</option>
+                            <option>Dealer C</option>
+                            <option>Dealer D</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-control" name="coach">
+                            <option value="">Select a Module</option>
+                            <option>RCI 1.0</option>
+                            <option>RCI 2.0</option>
+                            <option>RPM</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn blue">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
         <table class="table v-align-center">
                 <thead>
                     <tr>

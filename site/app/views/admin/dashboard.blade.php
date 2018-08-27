@@ -5,7 +5,7 @@
                 <div class="dash-on" onclick="gotosales()">
                     <div class="text">New Cars Sales</div>
                     <div class="icon">
-                        <i class="fa fa-bar-chart"></i>
+                        <i class="fa fa-car"></i>
                     </div>
                 </div>
             </div>
@@ -13,7 +13,7 @@
                 <div class="dash-on"  onclick="gotousedsales()">
                     <div class="text">Used Cars Sales</div>
                     <div class="icon">
-                        <i class="fa fa-clock-o"></i>
+                        <i class="fa fa-car"></i>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="dash-on"  onclick="gotorpmdealership()">
                     <div class="text">RPM Dealership Online</div>
                     <div class="icon">
-                        <i class="fa fa-car"></i>
+                        <i class="fa fa-clock-o"></i>
                     </div>
                 </div>
             </div>

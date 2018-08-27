@@ -224,7 +224,7 @@ var options3 = { // coaching module
     xAxis : [
         {
             type : 'category',
-            data : ['DJ', 'Kunal', 'Rajesh', 'Amit'],
+            data : ['Dealer A', 'Dealer B', 'Dealer C', 'Dealer D'],
             axisTick: {
                 alignWithLabel: true
             }

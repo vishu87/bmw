@@ -22,6 +22,7 @@
 
         {{HTML::style('assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css')}}
         {{HTML::style('assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css')}}
+        {{HTML::style('assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css')}}
 
         
         <!-- BEGIN THEME GLOBAL STYLES -->
@@ -273,6 +274,7 @@
 
         {{HTML::script('assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js')}}
         {{HTML::script('assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js')}}
+        {{HTML::script('assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js')}}
         
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         

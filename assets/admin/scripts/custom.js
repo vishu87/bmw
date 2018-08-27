@@ -235,14 +235,14 @@ var options3 = { // coaching module
             type : 'value',
             min: 0,
             max: 100,
-            name: '% Completed',
+            name: 'Days Completed',
             nameLocation : 'center',
             nameGap: 30
         }
     ],
     series : [
         {
-            name:'Completion',
+            name:'Nos of days completed',
             type:'bar',
             barWidth: '60%',
             data:[60, 75, 78, 65]
@@ -812,3 +812,13 @@ $(document).ready(function() {
 $(".folder").click(function(e){
     $("#modal1").modal('show');
 });
+
+
+$(".comment-icon").click(function(e){
+    $("#modal_comment").modal('show');
+});
+
+
+function close_modal(){
+    $("#modal_comment").modal('hide');
+}

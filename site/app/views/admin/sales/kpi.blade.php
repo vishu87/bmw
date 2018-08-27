@@ -16,13 +16,19 @@
         <form action="" method="GET">
             <div style="margin-bottom: 20px">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <select class="form-control" name="dealer">
                             <option>Select a dealer</option>
                             <option>Dealer A</option>
                             <option>Dealer B</option>
                             <option>Dealer C</option>
                         </select>
+                    </div>
+                    <div class="col-md-2">
+                        <input class="form-control datepicker" name="start_date" placeholder="Date from"/>
+                    </div>
+                    <div class="col-md-2">
+                        <input class="form-control datepicker" name="end_date" placeholder="Date to"/>
                     </div>
                     <div class="col-md-4">
                         <button class="btn blue">Submit</button>

@@ -8,26 +8,6 @@
                 <a href="{{url(Session::get('back-url'))}}" class="btn dark"><i class="fa fa-angle-double-left"></i> Go Back</a>
             </div>
         </div>
-
-        <form action="" method="GET">
-            <div style="margin-bottom: 20px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <select class="form-control" name="dealer">
-                            <option>Select a Coach</option>
-                            <option>DJ</option>
-                            <option>Kunal</option>
-                            <option>Rajesh</option>
-                            <option>Amit</option>
-                        </select>
-                    </div>
-                    <div class="col-md-4">
-                        <button class="btn blue">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </form>
-
     </div>
 </div>
 <?php
@@ -78,11 +58,39 @@
     );
 
     $calendars["DJ"] = [$ar1,$ar2,$ar3,$ar4];
-    $calendars["Kunal"] = [$ar1,$ar2,$ar3,$ar4];
+    // $calendars["Kunal"] = [$ar1,$ar2,$ar3,$ar4];
+
+    if(isset($_GET["coach"])){
+        if($_GET["coach"] == ""){
+            $coach_name = "All Coaches";
+        } else {
+            $coach_name = $_GET["coach"];
+        }
+    } else {
+        $coach_name = "All Coaches";
+    }
 
 ?>
 <div style="background:#FFF; padding: 50px 0">
     <div class="container-fluid">
+        <form action="" method="GET">
+            <div style="margin-bottom: 20px">
+                <div class="row">
+                    <div class="col-md-4">
+                        <select class="form-control" name="coach">
+                            <option value="">Select a Coach</option>
+                            <option {{ ($coach_name == "DJ") ? 'selected' : '' }} >DJ</option>
+                            <option {{ ($coach_name == "Kunal") ? 'selected' : '' }}>Kunal</option>
+                            <option {{ ($coach_name == "Rajesh") ? 'selected' : '' }}>Rajesh</option>
+                            <option {{ ($coach_name == "Amit") ? 'selected' : '' }}>Amit</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn blue">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -106,7 +114,8 @@
                 @foreach($calendars as $key => $calendar)
                     <tr>
                         <td class="text-center">
-                            <b>{{$key}}</b>
+                            <!-- <b>{{$key}}</b> -->
+                            <b>{{$coach_name}}</b>
                         </td>
                         @for($i = 0; $i < 10; $i++)
                             <td></td>

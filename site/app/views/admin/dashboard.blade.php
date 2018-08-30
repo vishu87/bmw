@@ -21,7 +21,7 @@
                 <div class="dash-on"  onclick="gotodatamanagement()">
                     <div class="text">Data Management</div>
                     <div class="icon">
-                        <i class="fa fa-database"></i>
+                        <i class="fa fa-folder-open"></i>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="dash-on"  onclick="gotorpmdealership()">
                     <div class="text">RPM Dealership Online</div>
                     <div class="icon">
-                        <i class="fa fa-clock-o"></i>
+                        <i class="fa fa-globe"></i>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="dash-on" onclick="gotoproject()">
                     <div class="text">Project Management</div>
                     <div class="icon">
-                        <i class="fa fa-pie-chart"></i>
+                        <i class="fa fa-file"></i>
                     </div>
                 </div>
             </div>

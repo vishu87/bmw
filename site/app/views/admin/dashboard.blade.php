@@ -13,7 +13,7 @@
                 <div class="dash-on"  onclick="gotousedsales()">
                     <div class="text">Used Cars Sales</div>
                     <div class="icon">
-                        <i class="fa fa-car"></i>
+                        <img src="{{url('/assets/img/car-icon2.png')}}" style="width: 200px; height: auto">
                     </div>
                 </div>
             </div>

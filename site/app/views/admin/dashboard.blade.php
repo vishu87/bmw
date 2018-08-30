@@ -5,7 +5,7 @@
                 <div class="dash-on" onclick="gotosales()">
                     <div class="text">New Cars Sales</div>
                     <div class="icon">
-                        <i class="fa fa-car"></i>
+                        <img src="{{url('/assets/img/car-icon.png')}}">
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
                 <div class="dash-on" onclick="gotosales()">
                     <div class="text">New Cars Sales</div>
                     <div class="icon">
-                        <img src="{{url('/assets/img/car-icon.png')}}">
+                        <img src="{{url('/assets/img/car-icon11.png')}}">
                     </div>
                 </div>
             </div>
@@ -13,7 +13,7 @@
                 <div class="dash-on"  onclick="gotousedsales()">
                     <div class="text">Used Cars Sales</div>
                     <div class="icon">
-                        <img src="{{url('/assets/img/car-icon2.png')}}" style="width: 200px; height: auto">
+                        <img src="{{url('/assets/img/car-icon22.png')}}" style="width: 200px; height: auto">
                     </div>
                 </div>
             </div>
